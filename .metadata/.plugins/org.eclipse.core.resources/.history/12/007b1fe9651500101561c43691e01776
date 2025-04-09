@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#navbar{
+	background: #9C0009;
+	height: 20vh;
+}
+
+#navbarUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#logo{
+	width: 25vh ;
+	height: 25vh ;
+}
+
+li {
+  display: inline;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}

@@ -1,0 +1,22 @@
+#navbar{
+	background-color: 9C0009;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}

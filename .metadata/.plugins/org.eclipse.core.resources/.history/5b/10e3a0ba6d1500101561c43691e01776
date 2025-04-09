@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	</head>
+	
+	<body>
+		<nav> <%@ include file="navbar.jsp" %> </nav>
+		
+		<div class="container">
+			<div class="apresentação">
+				<h1>Vinheria Agnello</h1>
+				<p>Descubra vinhos exóticos no nosso clube de assinatura, com recomendações personalizadas guiadas por um sommelier com inteligência artificial.</p>
+			</div>
+			
+			<div class="imagem">
+				<img src="content/img/pexels-cottonbro-3171815 1.png">
+			</div>
+			
+			
+		</div>
+	</body>
+	
+</html>

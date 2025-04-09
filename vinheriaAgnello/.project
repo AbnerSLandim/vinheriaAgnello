@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>vinheriaAgnello</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/content/img/CasalGarcia_Rose-scaled 2.png</name>
+			<type>1</type>
+			<location>C:/Users/abner/Downloads/CasalGarcia_Rose-scaled 2.png</location>
+		</link>
+		<link>
+			<name>WebContent/content/img/freixenet-preto 1.png</name>
+			<type>1</type>
+			<location>C:/Users/abner/Downloads/freixenet-preto 1.png</location>
+		</link>
+		<link>
+			<name>WebContent/content/img/logo-vinheria.png</name>
+			<type>1</type>
+			<location>C:/Users/abner/Downloads/logo-vinheria.png</location>
+		</link>
+		<link>
+			<name>WebContent/content/img/pexels-cottonbro-3171815 1.png</name>
+			<type>1</type>
+			<location>C:/Users/abner/Downloads/pexels-cottonbro-3171815 1.png</location>
+		</link>
+		<link>
+			<name>WebContent/content/img/pexels-pixabay-248413 1.png</name>
+			<type>1</type>
+			<location>C:/Users/abner/Downloads/pexels-pixabay-248413 1.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>

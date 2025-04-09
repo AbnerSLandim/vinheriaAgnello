@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	</head>
+	
+	<body>
+		<nav> <%@ include file="navbar.jsp" %> </nav>
+		
+		<div class="container">
+			<div class="apresentação">
+				<h1>Vinheria Agnello</h1>
+				<p>Descubra vinhos exóticos no nosso clube de assinatura, com recomendações personalizadas guiadas por um sommelier com inteligência artificial.</p>
+			</div>
+			
+			<div class="imagem">
+				<img src="content/img/pexels-cottonbro-3171815 1.png" id="imagemCapa">
+				<h1 class="imgh1">Vinheria Agnello</h1>
+				<p class="imgp">A Maior Importadora de vinhos</p>
+				<input type="button" class="botao" value="Conheça nossos rótulos">
+				
+			</div>
+			
+			<div class="produtosVendidos">
+				<h1 class="produtoH1">Produtos mais vendidos</h1>
+			</div>
+			
+	
+		</div>
+	</body>
+	
+</html>
