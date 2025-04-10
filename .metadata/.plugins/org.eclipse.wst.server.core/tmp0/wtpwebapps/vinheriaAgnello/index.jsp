@@ -68,8 +68,37 @@
 				</div>
 			</div>
 			
-			<div>
+			<div id="marcas">
+				<div class="marcaImagem">
+					<img src="content/img/Image.png">
+				</div>
+				
+				<div id="nossasMarcas">
+					<h6>Nossas Marcas</h6>
+					<p>Conheça marcas únicas pensadas especialmente para você</p>
+					<input type="button" class="botaoMarcas" value="Nossas Marcas">
+				</div>
+			</div>
 			
+			<h1>Avaliações</h1>
+			
+			<div id="avaliacoes">
+				
+				<div id="bloquinhosAvaliacao1">
+					<p>“Vinhos exclusivos, só aqui!”</p>
+					<img src="content/img/Avatar.png" class="iconeAvaliacao">
+				</div>
+				
+				<div id="bloquinhosAvaliacao2">
+					<p>“Uma experiência Fantástica”</p>
+					<img src="content/img/Avatar(1).png" class="iconeAvaliacao">
+				</div>
+				
+				<div id="bloquinhosAvaliacao3">
+					<p>“Melhor loja online de vinhos!”</p>
+					<img src="content/img/Avatar(2).png" class="iconeAvaliacao">
+				</div>
+				
 			</div>
 	
 		</div>
