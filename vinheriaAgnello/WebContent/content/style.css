@@ -122,6 +122,8 @@ a {
 	display: flex;
 	justify-content: space-around;
 	gap: 1em;
+	padding-left: 8vh;
+  	padding-right: 8vh;
 }
 
 .bebidasDisplay1, .bebidasDisplay2, .bebidasDisplay3{
@@ -222,6 +224,12 @@ a {
 	display: flex;
 	justify-content: center;
 	gap: 1em;
+	padding-left: 8vh;
+  	padding-right: 8vh;
+}
+
+#avaliacoesTexto{
+	padding-left: 8vh;
 }
 	
 	
@@ -235,4 +243,88 @@ a {
 
 .iconeAvaliacao{
 	padding: 1vh;
+}
+
+#baixeApp{
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+	display:flex;
+}
+
+#baixeAppTexto{
+	background-color: #F7F7F7;
+	height: 25vh;
+	max-width: 100%;
+	
+	font-size:24px;
+	display: flex;
+    justify-content: center; 
+    align-items: center;     
+	color:#740001;
+	flex-grow: 1;
+}
+
+#baixeAppBotoes {
+	background-color: #F7F7F7;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 1rem;           
+}
+
+
+#baixeAppBotoes a{
+	color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1vh;
+    flex-grow: 2;
+}
+
+#botaoPS{
+	background-color: #FFBD00;
+}
+
+#botaoAS{
+	background-color:#9C0009;
+}
+
+#footer{
+	font-size: 16px;
+	padding-top: 5vh;
+	padding-left:15vh;
+	display:flex;
+	border-top: 1px solid #E6E6E6;
+}
+
+#links{
+	
+}
+
+#links p {
+  font-size: 24px;
+  color: #9C0009;
+  text-align: center;
+  padding-left: 2vh;
+}
+
+#redesSociais{
+	display:flex;
+}
+
+#suporteFotter{
+	display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 12px 24px;
+    font-family: sans-serif;
+    padding-right: 15vh;
+    justify-content: end;
+    flex-grow: 2;
+}
+
+.textoFotterNegrito{
+	font-weight: bold;
 }

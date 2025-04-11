@@ -4,8 +4,8 @@
 <html>
 
 	<head>
-	<meta charset="UTF-8">
-	<title>Home</title>
+		<meta charset="UTF-8">
+		<title>Home</title>
 	</head>
 	
 	<body>
@@ -80,7 +80,7 @@
 				</div>
 			</div>
 			
-			<h1>Avaliações</h1>
+			<h1 id="avaliacoesTexto">Avaliações</h1>
 			
 			<div id="avaliacoes">
 				
@@ -100,7 +100,9 @@
 				</div>
 				
 			</div>
-	
+			
+			<footer><%@ include file="footer.jsp" %> </footer>
+			
 		</div>
 	</body>
 	
