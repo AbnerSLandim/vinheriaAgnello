@@ -16,15 +16,19 @@ body{
 }
 
 #navbarUL {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	display:flex;
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
 }
+
+
 
 #logo{
 	padding: 3vh;
 	width: 22vh ;
 	height: 15vh ;
+	margin-right: 60vh;
 }
 
 li {
@@ -301,10 +305,10 @@ a {
 }
 
 #links p {
-  font-size: 24px;
-  color: #9C0009;
-  text-align: center;
-  padding-left: 2vh;
+  	font-size: 24px;
+  	color: #9C0009;
+  	text-align: center;
+  	padding-left: 2vh;
 }
 
 #redesSociais{
@@ -323,4 +327,58 @@ a {
 
 .textoFotterNegrito{
 	font-weight: bold;
+}
+
+/*///////////////////////*/
+
+
+.barra-lateral {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+	overflow-y: auto;
+	padding-left: 5vh;
+	
+}
+
+.barra-lateral h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.secao-filtro {
+    margin-bottom: 30px;
+}
+
+.secao-filtro h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.checkbox-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-grupo label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+    
+.precoVinhos {
+    margin-left: 270px;
+    padding: 20px;
+}
+    
+    
+#vinhos{
+	display:flex;
 }

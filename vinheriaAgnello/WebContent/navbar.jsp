@@ -11,8 +11,8 @@
 	<body>
 	<div id="navbar">
 		<ul id="navbarUL">
-			<img src="content/img/logo-vinheria.png" id="logo">
-			<li><a href="#vinhos">Vinhos</a></li>
+			<a href="index.jsp"><img src="content/img/logo-vinheria.png" id="logo"></a>
+			<li><a href="vinhos.jsp">Vinhos</a></li>
 			<li><a href="#vinicolas">Vinicolas</a></li>
 			<li><a href="#presenteaveis">Presenteaveis</a></li>
 			<li><a href="#historia">Nossa Historia</a></li>
