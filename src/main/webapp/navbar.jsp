@@ -5,6 +5,9 @@
   Time: 16:14
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,10 +21,11 @@
     <ul id="navbarUL">
         <a href="index.jsp"><img src="${pageContext.request.contextPath}/content/img/logo-vinheria.png" id="logo"></a>
         <li><a href="VinhosServlet">Vinhos</a></li>
-        <li><a href="#vinicolas">Vinicolas</a></li>
-        <li><a href="#presenteaveis">Presenteaveis</a></li>
-        <li><a href="#historia">Nossa Historia</a></li>
-        <li><a href="#club">Club de Assinaturas</a></li>
+        <li><a href="erro?pagina=Vinicolas">Vinicolas</a></li>
+        <li><a href="erro?pagina=Presenteaveis">Presenteaveis</a></li>
+        <li><a href="erro?pagina=Nossa%20Historia">Nossa História</a></li>
+        <li><a href="erro?pagina=Club%20de%20Assinaturas">Club de Assinaturas</a></li>
+
     </ul>
 </div>
 

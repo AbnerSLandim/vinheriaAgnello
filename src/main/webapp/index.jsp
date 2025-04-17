@@ -22,8 +22,6 @@
         <h1 class="imgh1">Vinheria Agnello</h1>
         <p class="imgp">A Maior Importadora de vinhos</p>
         <input type="button" class="botao" value="Conheça nossos rótulos" onclick="window.location.href='VinhosServlet'">
-
-
     </div>
 
     <h1 class="produtoH1">Produtos mais vendidos</h1>
